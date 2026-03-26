@@ -1,5 +1,7 @@
 # wL1-NMF
 
+#This code is compatible with Julia 1.11
+
 **src** folder contains the implemented algorithms; here a complete list:  
 
 For solving L1-NMF:  
