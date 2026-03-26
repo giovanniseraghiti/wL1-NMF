@@ -8,9 +8,9 @@ wL1-NMF/
 ├── src/  
 │ └── ... # algorithms here  
 │  
-├── tests/ # tests presented in the paper  
+├── tests/   
 │ ├── Project.toml  
-│ └── ...  
+│ └── ... # tests presented in the paper  
 │  
 └── Dataset/  
 └── ...  
