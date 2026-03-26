@@ -3,16 +3,18 @@
 ### This code is compatible with Julia 1.11
 
 This is my personal setting:  
-wL1-NMF/  
-│── Project.toml  
-│── src/  
-│   ├── ...           #algorithm here  
-│  
-├── tests/            #tests presented in the paper  
-│   ├── Project.toml  
-│   ├── ...  
-│  
-│── Datset/  
+
+wL1-NMF/
+├── Project.toml
+├── src/
+│ └── ... # algorithms here
+│
+├── tests/ # tests presented in the paper
+│ ├── Project.toml
+│ └── ...
+│
+└── Dataset/
+└── ...
 
 **src** folder contains the implemented algorithms; here a complete list:  
 
