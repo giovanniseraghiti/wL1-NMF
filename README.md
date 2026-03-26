@@ -41,7 +41,7 @@ Others:
 
 
 **Dataset**
-- MNIST_all.mat: MNIST grey scale digit dataset x784.
+- MNIST_all.mat: MNIST grey scale 28 x 28 digit dataset.
 - tdt2_top30.mat: words x documents dataset, containing 19528 words and 9394 documents. The (i,j)th entry in the data corresponds to the frequency of word i in   document j.
 
 References  
