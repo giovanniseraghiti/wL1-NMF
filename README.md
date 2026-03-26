@@ -49,5 +49,5 @@ References
 [2] Guan, N., Tao, D., Luo, Z., Shawe-Taylor, J.: MahNMF: Manhattan non-negative matrix factorization. arXiv preprint arXiv:1207.3438 (2012)  
 [3] Rahimi, M., Ghaderi, S., Moreau, Y., Ahookhosh, M.: Projected subgradient methods for paraconvex optimization: Application to robust low-rank matrix recovery. arXiv preprint arXiv:2501.00427 (2024)
 [4] Gillis, N.: Nonnegative Matrix Factorization. SIAM, Philadelphia (2020)
-[5] Kong, D., Ding, C., Huang, H.: Robust nonnegative matrix factorization using L21-norm. In: Proceedings of the 20th ACM International Conference on Information and Knowledge Management, pp. 673–682 (2011)
+[5] Kong, D., Ding, C., Huang, H.: Robust nonnegative matrix factorization using L21-norm. In: Proceedings of the 20th ACM International Conference on Information and Knowledge Management, pp. 673–682 (2011)  
 [6] Our paper (to update)
