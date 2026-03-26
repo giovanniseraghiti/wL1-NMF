@@ -1,6 +1,6 @@
 # wL1-NMF
 
-#This code is compatible with Julia 1.11
+### This code is compatible with Julia 1.11
 
 **src** folder contains the implemented algorithms; here a complete list:  
 
