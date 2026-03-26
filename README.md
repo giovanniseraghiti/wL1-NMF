@@ -2,7 +2,7 @@
 
 ### This code is compatible with Julia 1.11
 
-This is my personal setting:
+This is my personal setting:  
 wL1-NMF/  
 │── Project.toml  
 │── src/  
