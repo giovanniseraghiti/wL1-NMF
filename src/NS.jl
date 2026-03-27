@@ -91,8 +91,9 @@ function NS(X::AbstractMatrix{T},
 
             
             if times[end]>timelim
-                println("Iteration $it, relative error $(errors[it])")
-                println("Stopped for timelimit at iteration $it")
+                pop!(times)
+                pop!(errors)
+                println("Stopped for timelimit at iteration $(it-1)")
                 break
             end
 
