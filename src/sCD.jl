@@ -90,8 +90,14 @@ function sCD(X::AbstractMatrix{T},
         
         #Stopping criteria: timelimit
         if times[end]>timelim
-            println("Iteration $it, relative error $(errors[it])")
-            println("Stopped for timelimit at iteration $it")
+            if length(times)>2
+                pop!(times)
+                pop!(errors)
+                println("Stopped for timelimit at iteration $(it-1)")
+            else
+                println("Warning: the first iteration exceeds the timelimit")
+                println("Iteration $it, relative error $(errors[it])") 
+            end
             break
         end
         
