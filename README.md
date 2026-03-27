@@ -34,8 +34,8 @@ Others:
 **tests** folder containing the experiments presented in [6]. The names correspond to the labels in the paper. The setting used in the paper is in the code
 - Example: computes the rank-2 L1-NMF, FroNMF, L21-NMF, and KLNMF of a 6 x 6 binary matrix with two clusters in the diagonal block. It is a small example to see the impact of the choice of the error measure in NMF models.
 - Table_7_1: comparison of CD and sCD in terms of CPU time per iteration on randomly generated synthetic data for different dimensions and sparsities of the data.
-- Figure_7_1: compares  L1-NMF, FroNMF, L21-NMF, and KLNMF on the MNIST dataset affected by sparse noise in terms of relative error with ground truth data.
-- Tab_Fig_7_2: compares CD, sCD, NS, and SUB to compute L1-NMF on the same noisy MNIST instance of Figure_7_1. Results are evaluated in terms of L1 relative error.
+- Figure_7_1_2: compares  L1-NMF, FroNMF, L21-NMF, and KLNMF on the MNIST dataset affected by sparse noise in terms of relative error with ground truth data.
+- Tab_7_2: compares CD, sCD, NS, and SUB to compute L1-NMF on the same noisy MNIST instance of Figure_7_1. Results are evaluated in terms of L1 relative error.
 - Figure_7_3: compares different regularization parameters in the wL1-NMF model on a randomly generated matrix completion instance with false zeros.
 - Table_7_3_4: compares sCD for wL1-NMF and FroNMF on the tdt2 data set for topic modeling. Results are evaluated qualitatively by looking at the 10 most relevant words for each topic (words corresponding to the 10 largest entries in each column of W) and in terms of sparsity of the extracted topic. 
 
